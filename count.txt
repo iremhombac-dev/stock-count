@@ -1,7 +1,7 @@
+Erasers 60
+Markers 75
 Notebook 118
 Pencil 450
+Rubber bands 900
 Stapler 14
 Tape 60
-Rubber bands 900
-Markers 75
-Erasers 60
