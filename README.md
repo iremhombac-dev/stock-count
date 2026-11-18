@@ -37,3 +37,14 @@ git blame count.txt
 - [0001 - The count is a plain text file](docs/adr/0001-plain-text-count.md)
 
 The same steps as a diagram: [docs/workflow.md](docs/workflow.md).
+
+## FAQ
+
+- **How do I add a new product?**
+  Open `count.txt` on a new branch and insert the new line (`<product> <quantity>`) in its alphabetical position, not at the end. Then open a pull request to merge it into `main`.
+
+- **What does commit mean?**
+  A commit is a saved snapshot of your changes in Git with a short message explaining what you changed.
+
+- **How can I edit `count.txt`?**
+  Do not edit `main` directly. Create a new branch (`git switch -c <branch-name>`), update the numbers or lines in `count.txt` while keeping alphabetical order, commit your changes, push the branch, and open a pull request.
